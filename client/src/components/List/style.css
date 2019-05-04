@@ -1,0 +1,24 @@
+.list-overflow-container {
+  max-height: 600px;
+  border: white;
+  border-radius: 6px;
+
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.list-overflow-container li a {
+  color: blue;
+}
+
+.list-overflow-container li:first-child {
+  border-bottom: none;
+}
+
+.list-overflow-container li:last-child {
+  border-top: none;
+}
